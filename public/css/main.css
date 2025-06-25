@@ -57,7 +57,7 @@ body {
   background-color: royalblue;
   width: 260px;
   border-radius: 10px;
-  box-shadow: 4px 3px 8px -1px black;
+  box-shadow: 4px 3px 8px -3px black;
   padding: 30px;
   border: none;
 }
