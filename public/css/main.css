@@ -1,0 +1,121 @@
+/***** base components *****/
+
+.add-btn {
+  background-color: lightskyblue;
+  color: darkblue;
+  border: none;
+  border-radius: 4px;
+  width: 90px;
+  box-shadow: 2px 2px 5px -3px black;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: lightskyblue;
+  color: darkblue;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  box-shadow: 2px 2px 5px -3px black;
+  font-size: 12px;
+}
+
+li {
+  font-size: 16px;
+  list-style: none;
+  margin-left: -37px;
+  line-height: 30px;
+  color: #fff;
+}
+
+/***** base body *****/
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0px 0px 15px;
+}
+
+* {
+  font-family: 'Roboto' ,sans-serif;
+}
+
+body {
+  margin: 150px 0px 150px;
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+}
+
+/***** base main *****/
+
+.container {
+  background-color: royalblue;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 8px -1px black;
+  padding: 30px;
+  border: none;
+}
+
+.add-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 145px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 15px ;
+  outline: none;
+  font-size: 12px;
+  background-color: whitesmoke;
+  box-shadow: inset 0px 0px 7px  black;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/***** media query *****/
+
+@media screen and (min-width:768px) {
+  .add-btn {
+    font-size: 17px;
+    width: 140px;
+  }
+
+  .delete-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .container {
+    width: 28%;
+  }
+
+  .add-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  input {
+    width: 230px;
+    height: 40px;
+  }
+
+  .task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+}
